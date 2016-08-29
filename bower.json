@@ -1,18 +1,18 @@
 {
-  "name": "mokeev1995",
-  "authors": [
-    "Mokeev Andrey <andrey@mokeev1995.ru>"
-  ],
-  "description": "mokeev1995 site",
-  "main": "index.html",
-  "license": "MIT",
-  "homepage": "http://mokeev1995.ru",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+	"name"        : "mokeev1995",
+	"authors"     : [
+		"Mokeev Andrey <andrey@mokeev1995.ru>"
+	],
+	"description" : "mokeev1995 site",
+	"main"        : "index.html",
+	"license"     : "MIT",
+	"homepage"    : "http://mokeev1995.ru",
+	"private"     : true,
+	"ignore"      : [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }
