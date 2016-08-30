@@ -335,7 +335,3 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
-
-/node_modules/
-/dist/
-/app/css/
