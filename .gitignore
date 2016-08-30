@@ -339,3 +339,4 @@ paket-files/
 /node_modules/
 /dist/
 /app/css/
+/typings
