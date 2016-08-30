@@ -1,11 +1,15 @@
 {
-  "globalDependencies": {
-    "browser-sync": "registry:dt/browser-sync#0.0.0+20160524142403",
-    "chokidar": "registry:dt/chokidar#1.4.3+20160316155526",
-    "gulp": "registry:dt/gulp#3.8.0+20160724062653",
-    "micromatch": "registry:dt/micromatch#2.3.7+20160123140905",
-    "node": "registry:dt/node#6.0.0+20160826120425",
-    "orchestrator": "registry:dt/orchestrator#0.0.0+20160316155526",
-    "parse-glob": "registry:dt/parse-glob#3.0.4+20160110125512"
-  }
+	"globalDependencies": {
+		"browser-sync": "registry:dt/browser-sync#0.0.0+20160524142403",
+		"gulp-autoprefixer": "registry:dt/gulp-autoprefixer#0.0.0+20160316155526",
+		"gulp-concat": "registry:dt/gulp-concat#0.0.0+20160316155526",
+		"gulp-rename": "registry:dt/gulp-rename#0.0.0+20160817204333",
+		"gulp-sass": "registry:dt/gulp-sass#0.0.0+20160316155526",
+		"gulp-uglify": "registry:dt/gulp-uglify#0.0.0+20160826020907",
+		"gulp-util": "registry:dt/gulp-util#0.0.0+20160316155526",
+		"node": "registry:dt/node#6.0.0+20160830141956"
+	},
+	"dependencies": {
+		"gulp": "registry:npm/gulp#4.0.0-alpha.2+20160817105618"
+	}
 }

@@ -1,6 +1,20 @@
 "use strict";
 var browserSync = require("browser-sync");
-var gulp = require('gulp'), gutil = require('gulp-util'), sass = require('gulp-sass'), concat = require('gulp-concat'), uglify = require('gulp-uglify'), cleanCSS = require('gulp-clean-css'), rename = require('gulp-rename'), del = require('del'), imagemin = require('gulp-imagemin'), pngquant = require('imagemin-pngquant'), cache = require('gulp-cache'), autoprefixer = require('gulp-autoprefixer'), fileinclude = require('gulp-file-include'), gulpRemoveHtml = require('gulp-remove-html'), bourbon = require('node-bourbon'), ftp = require('vinyl-ftp');
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
+var autoprefixer = require('gulp-autoprefixer');
+var cleanCSS = require('gulp-clean-css');
+var del = require('del');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
+var cache = require('gulp-cache');
+var fileinclude = require('gulp-file-include');
+var gulpRemoveHtml = require('gulp-remove-html');
+var bourbon = require('node-bourbon');
+var ftp = require('vinyl-ftp');
 gulp.task('browser-sync', function () {
     browserSync({
         server: {
@@ -76,21 +90,6 @@ gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], func
     ]).pipe(gulp.dest('dist'));
     var buildFonts = gulp.src('app/fonts/**/*').pipe(gulp.dest('dist/fonts'));
     var buildJs = gulp.src('app/js/**/*').pipe(gulp.dest('dist/js'));
-});
-gulp.task('deploy', function () {
-    var conn = ftp.create({
-        host: 'hostname.com',
-        user: 'username',
-        password: 'userpassword',
-        parallel: 10,
-        log: gutil.log
-    });
-    var globs = [
-        'dist/**',
-        'dist/.htaccess',
-    ];
-    return gulp.src(globs, { buffer: false })
-        .pipe(conn.dest('/path/to/folder/on/server'));
 });
 gulp.task('clearcache', function () {
     return cache.clearAll();

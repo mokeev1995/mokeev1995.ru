@@ -340,3 +340,4 @@ paket-files/
 /dist/
 /app/css/
 /typings
+/app/libs
