@@ -1,12 +1,12 @@
-html,body{
+html, body {
     background: #fff;
     width: 100%;
     height: 100%;
     color: #fff;
-    font-family: 'Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.container-fluid{
+.container-fluid {
     width: 100%;
     height: 100%;
     background: url("../img/bg.jpg") center;
@@ -16,21 +16,21 @@ html,body{
 
 }
 
-.centerAll{
+.centerAll {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
 
-.wrapper{
-    background-color: rgba(0,0,0,0.4);
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.4);
     position: relative;
     width: 100%;
     height: 100%;
     display: table;
 }
 
-main{
+main {
     padding-top: 130px;
 }
 
@@ -38,16 +38,17 @@ main figure {
     display: inline-block;
     margin-right: 10%;
 }
+
 main figure:last-child {
     margin: 0;
 }
 
-figure a,figure a:hover,figure a:active{
+figure a, figure a:hover, figure a:active {
     color: #ffffff;
     text-decoration: none;
 }
 
-figure span{
+figure span {
     display: block;
     width: 125px;
     height: 125px;
@@ -60,12 +61,12 @@ figure span{
     transition: 0.35s;
 }
 
-figure span:not(:hover){
+figure span:not(:hover) {
     transition: 0.5s;
 }
 
-@media screen and (max-width: 750px){
-    figure span{
+@media screen and (max-width: 750px) {
+    figure span {
         font-size: 4em;
         width: 115px;
         height: 115px;
@@ -73,8 +74,8 @@ figure span:not(:hover){
     }
 }
 
-@media screen and (max-width: 650px){
-    figure span{
+@media screen and (max-width: 650px) {
+    figure span {
         font-size: 3em;
         width: 100px;
         height: 100px;
@@ -82,17 +83,17 @@ figure span:not(:hover){
     }
 }
 
-@media screen and (max-width: 550px){
-    figure span{
-        font-size: 3.5m;
+@media screen and (max-width: 550px) {
+    figure span {
+        font-size: 3.5 m;
         width: 90px;
         height: 90px;
         line-height: 80px;
     }
 }
 
-@media screen and (max-width: 450px){
-    figure span{
+@media screen and (max-width: 450px) {
+    figure span {
         font-size: 3em;
         width: 70px;
         height: 70px;
@@ -100,12 +101,13 @@ figure span:not(:hover){
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 300px) {
 
-    main figure{
+    main figure {
         display: block;
     }
-    figure span{
+
+    figure span {
         font-size: 3em;
         width: 70px;
         height: 70px;
@@ -113,30 +115,30 @@ figure span:not(:hover){
     }
 }
 
-figure span:hover{
+figure span:hover {
     color: #926247;
     background: #fff;
 }
 
-figure span:active{
+figure span:active {
     color: #926247;
     background: #CECECE;
     border-color: #CECECE;
 }
 
-#blog span{
+#blog span {
 
 }
 
-#projects span{
+#projects span {
 
 }
 
-#contacts span{
+#contacts span {
     /*line-height: 120px;*/
 }
 
-header{
+header {
     position: absolute;
     top: 10%;
     text-align: center;
@@ -144,54 +146,55 @@ header{
     width: 100%;
 }
 
-header h1{
+header h1 {
     font-size: 10em;
     margin-bottom: 50px;
     font-weight: 300;
 }
 
-@media screen and (max-width: 1150px){
-    header h1{
+@media screen and (max-width: 1150px) {
+    header h1 {
         font-size: 9em;
     }
 }
-@media screen and (max-width: 1000px){
-    header h1{
+
+@media screen and (max-width: 1000px) {
+    header h1 {
         font-size: 8em;
     }
 }
 
-@media screen and (max-width: 900px){
-    header h1{
+@media screen and (max-width: 900px) {
+    header h1 {
         font-size: 7em;
     }
 }
 
-@media screen and (max-width: 750px){
-    header h1{
+@media screen and (max-width: 750px) {
+    header h1 {
         font-size: 6em;
     }
 }
 
-@media screen and (max-width: 650px){
-    header h1{
+@media screen and (max-width: 650px) {
+    header h1 {
         font-size: 5em;
     }
 }
 
-@media screen and (max-width: 550px){
-    header h1{
+@media screen and (max-width: 550px) {
+    header h1 {
         font-size: 4em;
     }
 }
 
-@media screen and (max-width: 450px){
-    header h1{
+@media screen and (max-width: 450px) {
+    header h1 {
         font-size: 4.5em;
     }
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -201,37 +204,37 @@ footer{
     padding-bottom: 30px;
 }
 
-footer a{
+footer a {
     color: #fff;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: none;
     color: #eeeeee;
 }
 
-footer a:active{
+footer a:active {
     color: #ddd;
 }
 
-@media screen and (max-height: 400px){
+@media screen and (max-height: 400px) {
 
-    figure span{
+    figure span {
         font-size: 2.5em;
         width: 60px;
         height: 60px;
         line-height: 50px;
     }
 
-    footer{
+    footer {
         padding-bottom: 15px !important;
     }
 }
 
-@media screen and (max-height: 380px){
+@media screen and (max-height: 380px) {
 
-    figure span{
+    figure span {
         font-size: 2em;
         width: 60px;
         height: 60px;
