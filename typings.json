@@ -1,15 +1,6 @@
 {
 	"globalDependencies": {
-		"browser-sync": "registry:dt/browser-sync#0.0.0+20160524142403",
-		"gulp-autoprefixer": "registry:dt/gulp-autoprefixer#0.0.0+20160316155526",
-		"gulp-concat": "registry:dt/gulp-concat#0.0.0+20160316155526",
-		"gulp-rename": "registry:dt/gulp-rename#0.0.0+20160817204333",
-		"gulp-sass": "registry:dt/gulp-sass#0.0.0+20160316155526",
-		"gulp-uglify": "registry:dt/gulp-uglify#0.0.0+20160826020907",
-		"gulp-util": "registry:dt/gulp-util#0.0.0+20160316155526",
-		"node": "registry:dt/node#6.0.0+20160830141956"
 	},
 	"dependencies": {
-		"gulp": "registry:npm/gulp#4.0.0-alpha.2+20160817105618"
 	}
 }
